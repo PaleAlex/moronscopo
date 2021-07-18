@@ -1,0 +1,309 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+body
+{
+	font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: #797979;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.1;
+	font-weight:600;
+	color: #222222;
+	margin:0 0 15px 0;
+	padding:0;
+	text-transform:capitalize;
+	font-family: 'Comic Neue', cursive;
+}
+
+h1 {
+	font-size: 36px;
+}
+h2 {
+	font-size:30px;
+}
+h3 {
+	font-size: 24px;
+}
+h4 {
+	font-size: 18px;
+}
+h5 {
+	font-size: 16px;
+}
+h6 {
+	font-size: 14px;
+}
+a {
+	color: #222222;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+a:hover {
+	text-decoration: none;
+	color: #ff7e00;
+}
+.row {
+  padding-left: 7.875rem;
+  padding-right: 7.875rem; }
+
+.row .row {
+  padding: 0;
+}
+.clear
+{
+	clear:both;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 4px;
+    background: #ff7e00;
+    color: #ffffff;
+    text-transform: uppercase;
+	-webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+	letter-spacing:0.5;
+}
+.btn:hover
+{
+	background: #37a4dd;
+	color:#ffffff;
+}
+
+/* Zodiac Sign */
+#zodiac_Sign.rashi_wrapper
+{
+	padding:50px 0 25px;
+	background: #f5f8ff;
+}
+.heading_wrapper
+{
+	text-align:center;
+}
+.heading_wrapper h2
+{
+    margin-bottom: 20px;
+}
+.heading_wrapper
+ {
+    max-width: 800px;
+    margin: auto;
+}
+.heading_wrapper p
+{
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+#zodiac_Sign.rashi_wrapper .rashi_sign_box
+{
+	text-align: center;
+	background: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	box-shadow: hsl(0, 0%, 94%) 0 0 15px;
+	width: 100%;
+}
+
+#zodiac_Sign.rashi_wrapper .rashi_sign_box  h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+#zodiac_Sign.rashi_wrapper .rashi_sign_box  p {
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+/* footer */
+#footer
+{
+    padding: 60px 0;
+    background: #222222;
+}
+
+#footer .footer_matter
+{
+    width: 100%;
+    padding-top: 60px;
+}
+
+
+#footer .footer_matter h2 {
+    font-size: 20px;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+#footer .footer_matter .footer_logo_wrapper h3 {
+    font-size: 26px;
+    color: #ff7e00;
+    font-weight: bold;
+    padding-top: 23px;
+    margin-left: 10px;
+}
+#footer .footer_matter .footer_logo_wrapper p {
+    margin: 20px 0 20px;
+    color: #999999;
+    margin-left: 10px;
+}
+#footer h4{
+  margin-left: 10px;
+}
+
+
+#footer .footer_matter .download_btn_wrapper img {
+    padding-bottom: 20px;
+}
+
+#footer .footer_matter .download_btn_wrapper {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+}
+#footer .footer_matter .download_btn_wrapper
+{
+	color: #999999;
+}
+.footer_copyright
+ {
+    width: 100%;
+    position: relative;
+    background: #1a1a1a;
+    padding-top: 35px;
+    padding-bottom: 25px;
+	text-align: center;
+}
+.footer_copyright a
+{
+    color: #ff7e00;
+}
+.footer_copyright a:hover
+{
+    color: #37a4dd;
+}
+
+/*responsive*/
+
+
+@media screen and (min-width: 800px) and (max-width: 1280px)
+{
+.row {
+  padding-left: 15px;
+  padding-right: 15px; }
+.row .row {
+  padding: 0;
+}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px)
+{
+.row
+{
+    padding-left: 10px;
+	padding-right: 10px;
+}
+}
+
+@media screen and (min-width: 320px) and (max-width: 992px)
+{
+
+#footer {
+    padding: 50px 0;
+}
+#footer .footer_matter .col-xs-12
+{
+	width:25%;
+	float:left;
+}
+#footer .box:after {
+    right: -420px;
+}
+.top-header {
+    display: none;
+}
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px)
+{
+.row
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#zodiac_Sign.rashi_wrapper .col-xs-12 {
+    width: 33.3333%;
+}
+#footer .footer_matter .col-xs-12
+{
+	width:50%;
+	float:left;
+}
+
+#footer .footer_list_wrapper
+{
+    min-height: 400px;
+}
+
+.footer_logo_wrapper img
+{
+	max-width:200px;
+}
+#footer .box:after {
+    right: -500px;
+}
+#footer {
+    padding: 40px 0;
+}
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px)
+{
+#zodiac_Sign.rashi_wrapper .col-xs-12 {
+    width: 50%;
+}
+
+#footer .footer_matter .col-xs-12 {
+    width: 100%;
+    float: left;
+}
+
+#footer .footer_matter h2 {
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+#footer .box:after {
+    right: -650px;
+}
+
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 13px;
+}
+}

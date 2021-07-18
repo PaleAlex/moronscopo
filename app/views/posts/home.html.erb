@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Moronscope | Home</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Zodiac Sign -->
+<div id="zodiac_Sign" class="rashi_wrapper">
+	<div class="container-fluid">
+		<div class="heading_wrapper wow fadeInDown animated">
+			<h2 class="wow fadeInDown animated">Scegli il Tuo <span>Segno Zodiacale</span></h2>
+			<p class="wow fadeInDown animated">Rubrica per l'Oroscopo pensato e studiato dal famoso consulente-astrologo Matteo Moron </p>
+		</div>
+		<div class="row">
+			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+				<div class="rashi_sign_box wow fadeInDown animated ">
+					<div class="sign_box_img">
+						<%= link_to image_tag("icon1.png", alt: "icona"), ariete_path %>
+					</div>
+					<div class="sign_box_cont">
+						<h4>Aries</h4>
+						<p>21 mar-19 apr</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+				<div class="rashi_sign_box wow fadeInDown animated">
+					<div class="sign_box_img">
+					<%= link_to image_tag("icon2.png", alt: "icona"), toro_path%>
+					</div>
+					<div class="sign_box_cont">
+						<h4>Taurus</h4>
+						<p>20 apr-20 mag</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+				<div class="rashi_sign_box wow fadeInDown animated">
+					<div class="sign_box_img">
+						<%= link_to image_tag("icon3.png", alt: "icona"), gemelli_path%>
+					</div>
+					<div class="sign_box_cont">
+						<h4>Gemini</h4>
+						<p>21 mag-20 giu</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+				<div class="rashi_sign_box wow fadeInDown animated">
+					<div class="sign_box_img">
+						<%= link_to image_tag("icon4.png", alt: "icona"), cancro_path%>
+					</div>
+					<div class="sign_box_cont">
+						<h4>Cancer</h4>
+						<p>21 giu-22 lug</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+				<div class="rashi_sign_box wow fadeInDown animated">
+					<div class="sign_box_img">
+						<%= link_to image_tag("icon5.png", alt: "icona"), leone_path%>
+					</div>
+					<div class="sign_box_cont">
+						<h4>Leo</h4>
+						<p>23 lug-23 ago</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+				<div class="rashi_sign_box wow fadeInDown animated">
+					<div class="sign_box_img">
+						<%= link_to image_tag("icon6.png", alt: "icona"), vergine_path%>
+					</div>
+					<div class="sign_box_cont">
+						<h4>Virgo</h4>
+						<p>24 ago-22 set</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+				<div class="rashi_sign_box wow fadeInDown animated">
+					<div class="sign_box_img">
+						<%= link_to image_tag("icon7.png", alt: "icona"), bilancia_path%>
+					</div>
+					<div class="sign_box_cont">
+						<h4>Libra</h4>
+						<p>23 set-22 ott</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+				<div class="rashi_sign_box wow fadeInDown animated">
+					<div class="sign_box_img">
+						<%= link_to image_tag("icon8.png", alt: "icona"), scorpione_path%>
+					</div>
+					<div class="sign_box_cont">
+						<h4>Scorpio</h4>
+						<p>23 ott-21 nov</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+				<div class="rashi_sign_box wow fadeInDown animated">
+					<div class="sign_box_img">
+						<%= link_to image_tag("icon9.png", alt: "icona"), sagittario_path%>
+					</div>
+					<div class="sign_box_cont">
+						<h4>Sagittairus</h4>
+						<p>22 nov-21 dic</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+				<div class="rashi_sign_box wow fadeInDown animated">
+					<div class="sign_box_img">
+						<%= link_to image_tag("icon10.png", alt: "icona"), capricorno_path%>
+					</div>
+					<div class="sign_box_cont">
+						<h4>Capricorn</h4>
+						<p>22 dic-19 gen</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+				<div class="rashi_sign_box wow fadeInDown animated">
+					<div class="sign_box_img">
+						<%= link_to image_tag("icon11.png", alt: "icona"), acquario_path%>
+					</div>
+					<div class="sign_box_cont">
+						<h4>Aquarius</h4>
+						<p>20 gen-19 feb</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+				<div class="rashi_sign_box wow fadeInDown animated">
+					<div class="sign_box_img">
+						<%= link_to image_tag("icon12.png", alt: "icona"), pesci_path%>
+					</div>
+					<div class="sign_box_cont">
+						<h4>Pisces</h4>
+						<p>20 feb-20 mar</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Zodiac Sign end -->
+<!-- Footer Section -->
+	<footer id="footer" class="footer">
+		<div class="container-fluid">
+			<div class="row">
+			<div class="row footer_matter">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+					<div class="footer_logo_wrapper">
+						<%= image_tag("logo.PNG", alt: "logo", class: "img-responsive wow fadeInDown animated")%>
+						<p class="wow fadeInDown animated">Questa guida astrologica è stata appositamente e mal pensata da <%= link_to "Alessandro Ciocchetti", "https://www.linkedin.com/in/alessandro-ciocchetti-281217152/", target: "_blank", rel: "noopener noreferrer" %> per Matteo Moron e per il mercato I&S di SCS Consulting con solo motivo di svago.
+						Diffidate di tutto ciò che verrà scritto qui dentro. Io (quello sopra) non appoggio/sostengo le pseudoscienze</p>
+					</div>
+				</div>
+	<div class="footer_copyright">
+		<div class="container-fluid">
+			<p class="wow fadeInDown animated">Nessun copyright e nessun diritto riservato. Fatene quel cazzo che ve ne pare</p>
+		</div>
+	</div>
+</body>
+</html>
